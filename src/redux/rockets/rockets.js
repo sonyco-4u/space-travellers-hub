@@ -1,22 +1,17 @@
 import Axios from 'axios';
-
 // conts
 const FETCH_ROCKET = 'spaceTravelersHub/rockets/FETCH_ROCKET';
 const BOOK_ROCKET = 'spaceTravelersHub/rockets/BOOK_ROCKET';
-
 // actions
 const fetchRocket = (payload) => ({
   type: FETCH_ROCKET,
   payload,
 });
-
 export const bookRocket = (payload) => ({
   type: BOOK_ROCKET,
   payload,
 });
-
 //   APIs-functions
-
 export const fetchRocketApi = () => async (dispatch) => {
   const returnValue = await Axios.get('https://api.spacexdata.com/v3/rockets');
   const { data } = returnValue;
@@ -34,9 +29,7 @@ export const fetchRocketApi = () => async (dispatch) => {
   }
   dispatch(fetchRocket(rockets));
 };
-
 // rocket-booking
-
 const reserveCancelRocket = (state, payload) => {
   const newState = state.map((rocket) => {
     if (rocket.id !== payload) return rocket;
@@ -44,10 +37,8 @@ const reserveCancelRocket = (state, payload) => {
   });
   return newState;
 };
-
 // state
 const initialState = [];
-
 // reducer
 const reducer = (state = initialState, action) => {
   switch (action.type) {
@@ -59,5 +50,4 @@ const reducer = (state = initialState, action) => {
       return state;
   }
 };
-
 export default reducer;
