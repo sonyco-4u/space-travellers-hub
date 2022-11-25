@@ -1,1 +1,12 @@
 /* style for rockets */
+
+/* style for rockets */
+
+.rocket-container {
+  display: flex;
+}
+
+.rocket-details {
+  display: flex;
+  flex-direction: column;
+}
