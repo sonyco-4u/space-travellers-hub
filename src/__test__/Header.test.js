@@ -8,7 +8,7 @@ describe('Header tests', () => {
     const header = render(
       <BrowserRouter>
         <Header />
-      </BrowserRouter>,
+      </BrowserRouter>
     );
 
     expect(header).toMatchSnapshot();
