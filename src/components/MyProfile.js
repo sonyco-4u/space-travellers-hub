@@ -1,13 +1,12 @@
 import React from 'react';
+import MissionProfile from './missionsComponent/missionsProfile';
+import RocketProfile from './rocketsComponent/RocketProfile';
 
 const MyProfile = () => (
+
   <main className="profile-main">
-    <div className="profile-rockets">
-      <h1>My Rockets</h1>
-    </div>
-    <div className="profile-missions">
-      <h1>My Missions</h1>
-    </div>
+    <MissionProfile />
+    <RocketProfile />
   </main>
 );
 
