@@ -54,7 +54,7 @@ run the following commands in your terminal
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/JonahKayizzi/space-travellers-hub/issues).
+g
 
 ## Acknowledgments
 
