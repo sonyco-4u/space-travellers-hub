@@ -11,11 +11,15 @@ Object {
         <div
           class="logo-title-c"
         >
-          <img
-            alt="logo-top"
-            class="logo-top"
-            src="logo.png"
-          />
+          <a
+            href="/"
+          >
+            <img
+              alt="logo-top"
+              class="logo-top"
+              src="logo.png"
+            />
+          </a>
           <h3
             class="header-title"
           >
@@ -63,11 +67,15 @@ Object {
       <div
         class="logo-title-c"
       >
-        <img
-          alt="logo-top"
-          class="logo-top"
-          src="logo.png"
-        />
+        <a
+          href="/"
+        >
+          <img
+            alt="logo-top"
+            class="logo-top"
+            src="logo.png"
+          />
+        </a>
         <h3
           class="header-title"
         >
