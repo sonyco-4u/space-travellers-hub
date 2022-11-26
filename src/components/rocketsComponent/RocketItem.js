@@ -20,7 +20,11 @@ const RocketItem = (props) => {
         <h2 className="rocket-title">{name}</h2>
         <p className="rocket-description">
           {reserved && (
+<<<<<<< Updated upstream
           <span>
+=======
+          <span className="rocket-badge">
+>>>>>>> Stashed changes
             Reserved
           </span>
           )}

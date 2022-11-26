@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< Updated upstream
 import { useSelector } from 'react-redux';
 
 const MyProfile = () => {
@@ -23,5 +24,17 @@ const MyProfile = () => {
     </main>
   );
 };
+=======
+import MissionProfile from './missionsComponent/missionsProfile';
+import RocketProfile from './rocketsComponent/RocketProfile';
+
+const MyProfile = () => (
+
+  <main className="profile-main">
+    <MissionProfile />
+    <RocketProfile />
+  </main>
+);
+>>>>>>> Stashed changes
 
 export default MyProfile;
