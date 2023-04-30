@@ -27,6 +27,9 @@ run the following commands in your terminal
 - cd space-travellers-hub
 - git checkout dev
 
+### Live demo
+https://euphonious-crumble-fca2d2.netlify.app/
+
 ### Local deployment
 
 - npm install
